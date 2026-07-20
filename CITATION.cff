@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or search log, please cite this repository."
+title: "Jacobian Search"
+type: software
+authors:
+  - name: "Neil Fox Agency"
+repository-code: "https://github.com/NeilFoxAgency/jacobian-search"
+url: "https://github.com/NeilFoxAgency/jacobian-search"
+version: 0.1.0
+date-released: 2026-07-20
+license: MIT
+abstract: >-
+  Reproducible symbolic verification and finite-field screening experiments
+  related to the Jacobian conjecture, including exact checks for an explicit
+  three-dimensional map and a structured search in the plane critical-degree
+  window.
+keywords:
+  - Jacobian conjecture
+  - algebraic geometry
+  - polynomial automorphisms
+  - computational mathematics
+  - symbolic computation
