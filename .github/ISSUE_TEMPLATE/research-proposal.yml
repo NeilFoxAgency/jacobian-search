@@ -1,0 +1,53 @@
+name: Research proposal or result
+description: Propose a search family, exact obstruction, verification, or candidate result
+title: "[Research]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing. Please distinguish exact mathematics from modular, exhaustive-finite, sampled, or heuristic evidence.
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence classification
+      options:
+        - Exact over characteristic zero
+        - Exact over a stated finite field
+        - Exhaustive within a specified finite family
+        - Sampled or heuristic
+        - Proposal not yet tested
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Mathematical question
+      description: State the exact conjecture, ansatz, obstruction, or reduction.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result or proposed method
+      description: Give formulas, bounds, and the claimed conclusion.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction details
+      description: Include commands, code links, primes, seeds, runtime, and hardware.
+      render: shell
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations
+      description: State clearly what this does not prove or search.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References and attribution
+      description: Link prior work and credit independent discoveries.
